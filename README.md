@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# Hot Sauce Exercise
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Purpose
+This exercise is provided as a less stressful and more realistic technical interview alternative to whiteboard exercises and real-time, recall-based coding challenges. We understand that you have other commitments and don't expect this to take more than a few hours to complete. It should be somewhat enjoyable, or at least more so than studying up on binary trees and sorting algorithms. It is not a test, but rather a starting point for discussion in the interview.
 
-## Available Scripts
+## Specification
+You'll be building an application for browsing hot sauces. The first page is a grid of hot sauces, with an image, title, and subtitle for each. Upon clicking one of these, the user will be taken to a detail page, where a larger image and in-depth description of the sauce is provided. A link is provided to go back to the grid page to select another hot sauce. Each grid item also contains a small delete button in the corner, which will remove it from the grid. There's no need to update the data source.
 
-In the project directory, you can run:
+Alongside these instructions you'll find two wireframes which correspond to these pages. The wireframes are intentionally rough and a starting point for the UX, so don't worry about matching the design pixel-for-pixel. Instead, we'd like you to improve on it. Consider which pieces of the app to improve: the hot sauce cards; the grid layout; the detail view; etc. Tempting as it might be to redesign everything, doing so can be quite time consuming and your time is valuable to us, so please don't feel pressured to do so—notable visual improvements to one or two pieces will be sufficient.
 
-### `yarn start`
+Consider these visual design elements in your improvements: spacing; colors; element states (hover, click, focus, etc); typography/font choices (feel free to use resources like [Google fonts](https://fonts.google.com/)); animation; etc. You may want to use a design tool like Figma or Adobe XD to quickly put ideas together, but this isn't a requirement.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+A JSON file of hot sauces is provided to serve as a data source for your application. You may modify it if you wish.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Questions
+While on a real project you'd have access to designers and program managers to clarify the requirements, for this exercise you may have to make some assumptions. Feel free to reach out to the team at any time if you have questions of any kind. We're here to support you. Please note anything that was unclear so that we can improve this exercise in the future.
 
-### `yarn test`
+## Optional enhancements
+Here are some ideas if you would like to go beyond the specification. We welcome any or all of these, but encourage you not to feel obligated to do them.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Enhancing the functionality or behavior
+* Add routing for sauce URLs
+* Enable adding a sauce (title, description, image, etc.)
+* Make the pages responsive
+* Animations, transitions, etc.
 
-### `yarn build`
+## Requirements
+Your web application must:
+* Use [React](https://reactjs.org/)
+* Improve the design of the app
+* Use the provided JSON file as a data source
+* Use custom-built and styled components
+  * You may use libraries like Bootstrap or Fluent UI, but if you do, make sure you've noticeably updated the styling from the default
+* Use a build system, such as [Create React App](https://github.com/facebook/create-react-app) (or whatever you prefer)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Deliverables
+Please send us instructions on how to set up up the project and a ZIP of all necessary files. For the interview call after completing this exercise, please have your app running on a device so we can review it together.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Thank you for your interest in our team and good luck!**
