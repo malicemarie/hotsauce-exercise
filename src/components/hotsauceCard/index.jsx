@@ -8,12 +8,15 @@ const Card = ({ info }) => {
 
   return (
     <div>
-      <Link className="view-detail-link" to={detailPage}>
-        <div class="card">
-          <div class="card-image">
+      <Link
+        className="view-detail-link"
+        to={{ pathname: detailPage, state: info }}
+      >
+        <div className="card">
+          <div className="card-image">
             <img alt="hotsauce" src={info.imageURL} />
           </div>
-          <div class="card-text-area">
+          <div className="card-text-area">
             <p>{info.title}</p>
             <span>{info.subtitle}</span>{" "}
           </div>

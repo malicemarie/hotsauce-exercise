@@ -5,8 +5,6 @@ import hotsauces from "../../hotsauces.json";
 import "./style.css";
 
 const Grid = () => {
-  //WAS USING A FETCH BUT COULDNT FIGURE IT OUT SO DID AN IMPORT INSTEAD
-
   // const [data, setData] = useState([]);
 
   // const getData = () => {

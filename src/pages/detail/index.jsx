@@ -1,23 +1,24 @@
 import React from "react";
-import hotsauces from "../../hotsauces.json";
-import BackToSauceList from "../../components/backToSauceList";
+import DetailDescptionSection from "../../components/detailDescriptionSection";
+import DetailImageSection from "../../components/detailImageSection";
+import DetailTitleSection from "../../components/detailTitleSection";
+// import hotsauces from "../../hotsauces.json";
 import "./style.css";
 
-const Detail = () => {
+const Detail = (props) => {
+  let saucetoDisplay = props.location.state;
+  let currentSauceID = saucetoDisplay.id;
+  let sauceTitle = saucetoDisplay.title;
+  let sauceDescription = saucetoDisplay.description;
+  let sauceImageURL = saucetoDisplay.imageURL;
+
   return (
     <div>
-      <div>
-        <BackToSauceList />
-      </div>
-      <div class="card">
-        <div class="card-image">
-          <img alt="hotsauce" src={hotsauces.imageURL} />
-        </div>
-        <div class="card-text-area">
-          <p>{hotsauces.title}</p>
-          <span>{hotsauces.subtitle}</span>
-        </div>
-      </div>
+      <DetailTitleSection key={currentSauceID} title={sauceTitle} />
+
+      <DetailDescptionSection key={currentSauceID} desc={sauceDescription} />
+
+      <DetailImageSection key={currentSauceID} imageURL={sauceImageURL} />
     </div>
   );
 };
