@@ -1,0 +1,12 @@
+.page-title {
+  color: darkred;
+  margin: 10px;
+}
+
+.page-title-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 40px;
+}

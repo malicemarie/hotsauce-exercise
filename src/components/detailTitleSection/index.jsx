@@ -1,13 +1,11 @@
 import React from "react";
-import BackToSauceList from "../../components/backToSauceList";
+
+import "./style.css";
 
 const DetailTitleSection = ({ title }) => {
   return (
-    <div>
-      <BackToSauceList />
-      <div>
-        <h2>{title}</h2>
-      </div>
+    <div className="hotsauce-title">
+      <h2>{title}</h2>
     </div>
   );
 };

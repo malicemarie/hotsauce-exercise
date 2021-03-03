@@ -1,9 +1,10 @@
 import React from "react";
+import "./style.css";
 
 const DetailImageSection = (sauceImageURL) => {
   let sauceImageToDisplay = sauceImageURL.imageURL;
   return (
-    <div>
+    <div className="detail-image-container">
       <img alt="hotsauce" src={sauceImageToDisplay}></img>
     </div>
   );

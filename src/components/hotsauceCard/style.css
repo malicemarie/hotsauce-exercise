@@ -12,6 +12,7 @@
 }
 
 .card-text-area {
+  height: 90px;
   padding: 10px;
   background-color: rgba(252, 240, 29, 0.6);
 }
@@ -28,7 +29,7 @@ p {
 span {
   font-size: 12px;
   line-height: 1;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 a {
