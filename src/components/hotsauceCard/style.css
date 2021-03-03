@@ -1,6 +1,9 @@
 .card {
-  border: 1px solid white;
   border-radius: 0.25rem;
+  box-shadow: 0px 10px 30px #e2d3c8;
+}
+.card:hover {
+  box-shadow: 0px 10px 30px #e0a880;
 }
 
 .card-image img {
@@ -14,7 +17,7 @@
 .card-text-area {
   height: 90px;
   padding: 10px;
-  background-color: rgba(252, 240, 29, 0.6);
+  background-color: rgba(252, 240, 29, 0.5);
 }
 
 p {
@@ -35,4 +38,15 @@ span {
 a {
   text-decoration: none;
   color: black;
+}
+
+@media (min-width: 1000px) {
+  .card {
+    border-radius: 1rem;
+  }
+
+  .card-text-area {
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+  }
 }

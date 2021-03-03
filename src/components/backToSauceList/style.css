@@ -4,3 +4,11 @@
   margin-bottom: 50px;
   color: darkred;
 }
+
+@media (max-width: 1000px) {
+  .back-to-grid h2 {
+    margin-bottom: 0;
+    font-size: 14px;
+    font-style: italic;
+  }
+}

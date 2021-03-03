@@ -8,3 +8,13 @@
   height: 100%;
   border-radius: 5vw;
 }
+
+@media (max-width: 1000px) {
+  .detail-description-section p {
+    font-size: 10px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 2vw;
+    font-weight: 100;
+  }
+}

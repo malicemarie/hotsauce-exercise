@@ -11,6 +11,8 @@
   padding: 20px;
 }
 
-.card:hover {
-  box-shadow: 0px 10px 30px #e0a880;
+@media (max-width: 1000px) {
+  .card-container {
+    width: 100%;
+  }
 }

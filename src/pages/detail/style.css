@@ -25,3 +25,23 @@
 h2 {
   font-family: Arizonia;
 }
+
+@media (max-width: 1000px) {
+  .detail-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+  }
+  .right-side-detail {
+    width: 100%;
+    margin-top: 0;
+    margin-left: 0;
+    align-items: center;
+  }
+
+  .left-side-detail {
+    width: 100%;
+    margin-left: 0;
+  }
+}
